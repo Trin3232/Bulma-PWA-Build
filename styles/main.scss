@@ -29,6 +29,42 @@ $colours: (
   text-align: center;
 }
 
+/**************animation pulsate*************************/
+
+.pulsate {
+  -webkit-animation: pulsate 1.5s ease-in-out infinite both;
+  animation: pulsate 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
 /************************Media Queries*******************/
 
 /* @media (max-width: 320px) {
