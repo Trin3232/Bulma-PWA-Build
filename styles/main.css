@@ -1,0 +1,36 @@
+/*
+Project Name: Bulma CSS Site
+Client: N/A
+Author: Trin3232 (GitHub)
+*/
+/*************Fonts & Colours Variables ****************************/
+@import url(c:\Users\emanu\Documents\GitHub\Bulmas-CSS-Site\styles\normalize.css);
+/*********************************************************/
+/*********************Main Body Styles********************/
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  background-color: #fbf0fe;
+}
+
+.title.is-1 {
+  text-align: center;
+}
+
+/************************Media Queries*******************/
+/* @media (max-width: 320px) {
+  .title.is-1 {
+    margin: 17%;
+  }
+} */
+/*# sourceMappingURL=main.css.map */

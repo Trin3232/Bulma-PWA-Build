@@ -1,0 +1,38 @@
+/*
+Project Name: Bulma CSS Site
+Client: N/A
+Author: Trin3232 (GitHub)
+*/
+
+/*************Fonts & Colours Variables ****************************/
+
+@import "normalize.css";
+
+$colours: (
+  top-bar-color: #fbf0fe
+);
+/*********************************************************/
+
+/*********************Main Body Styles********************/
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: map-get($colours, top-bar-color);
+}
+
+.title.is-1 {
+  text-align: center;
+}
+
+/************************Media Queries*******************/
+
+/* @media (max-width: 320px) {
+  .title.is-1 {
+    margin: 17%;
+  }
+} */
